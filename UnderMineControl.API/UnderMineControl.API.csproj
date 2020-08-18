@@ -53,6 +53,7 @@
     <Compile Include="IConfiguration.cs" />
     <Compile Include="IEvents.cs" />
     <Compile Include="IGame.cs" />
+    <Compile Include="IItem.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="IMenu.cs" />
     <Compile Include="IPatcher.cs" />
@@ -69,5 +70,6 @@
     <Compile Include="Models\IVersion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

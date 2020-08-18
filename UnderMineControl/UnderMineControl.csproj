@@ -40,9 +40,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="BepInEx, Version=5.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>libs\BepInEx.dll</HintPath>
+    <Reference Include="BehaviorDesigner">
+      <HintPath>libs\BehaviorDesigner.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Harmony, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -58,8 +57,8 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnderMine, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\UnderMine.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -84,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntryPlugin.cs" />
+    <Compile Include="Item\ModItem.cs" />
     <Compile Include="Menu\MenuItems.cs" />
     <Compile Include="Menu\MenuUtility.cs" />
     <Compile Include="Models\ModImplementation.cs" />
@@ -121,5 +121,6 @@
     <Content Include="libs\UnityEngine.JSONSerializeModule.dll" />
     <Content Include="libs\UnityEngine.UnityAnalyticsModule.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
