@@ -43,6 +43,10 @@
     <Reference Include="BehaviorDesigner">
       <HintPath>libs\BehaviorDesigner.dll</HintPath>
     </Reference>
+    <Reference Include="BepInEx, Version=5.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\BepInEx.dll</HintPath>
+    </Reference>
     <Reference Include="BepInEx.Harmony, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\BepInEx.Harmony.dll</HintPath>
